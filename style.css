@@ -210,5 +210,9 @@ footer {
     font-size: 0.7rem;
     margin-top: 1rem;
   }
+   nav a:not(:last-child)::after {
+      content: none;
+   }
+      
 
 }
